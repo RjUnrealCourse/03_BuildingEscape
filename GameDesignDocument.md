@@ -24,20 +24,20 @@ Focus will be on gameplay flow and feel
 1. __SFX__: Shooting sound, Winning end of game sound, player died sound
 
 2. __Static mesh__:   
-  1. 3rd person body - can be found in unreal official tutorials
-  2. 1st person hands animated - same
-  3. Robots - Ai robots with wheels looks like r2d2 from starwars, should have barrel, turret, body, tracks
-  4. House structures - walls, roof, ... etc
-  5. Trees, grass, rocks - for environment.
-  6. Cup - for the win.
-  7. Gun - for shooting weapon (optional)
+    1. 3rd person body - can be found in unreal official tutorials
+    2. 1st person hands animated - same
+    3. Robots - Ai robots with wheels looks like r2d2 from starwars, should have barrel, turret, body, tracks
+    4. House structures - walls, roof, ... etc
+    5. Trees, grass, rocks - for environment.
+    6. Cup - for the win.
+    7. Gun - for shooting weapon (optional)
 
 3. __Textures__:
-  1. Grass Texture - Can be imported from Grass tool project
-  2. Rock Texture - same
-  3. Trees Texture - import with trees from Procedural Folliage tool project
-  4. Texture for robots, Texture for walls, Texture for the floor, Texture for cup .. etc all come from Starter content imports
-  5. Gun flares - same
+    1. Grass Texture - Can be imported from Grass tool project
+    2. Rock Texture - same
+    3. Trees Texture - import with trees from Procedural Folliage tool project
+    4. Texture for robots, Texture for walls, Texture for the floor, Texture for cup .. etc all come from Starter content imports
+    5. Gun flares - same
 
 4. __Music__: Background music to create tension.
 
