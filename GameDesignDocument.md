@@ -6,6 +6,7 @@ I finished Battle tanks and now I am here to make building escape game look / pl
 2. Constantly asking “what’s least fun”
 3. Remember we’re not AAA studios
 4. Let’s find the essence of fun of this game.
+5. we will spend 5 x 40 min / session per one node in cycle and be back in the loop.
 
 ## Concept
 Building Escape is a First person shooter game.
