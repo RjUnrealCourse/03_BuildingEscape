@@ -10,6 +10,15 @@ AFPSCharacter::AFPSCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    // create a subobject
+    FPSCameraComponent = CreateDefaultSubobject<UCameraComponent>(FName("FPS Camera"));
+    // Attach camera to capsule
+    FPSCameraComponent->SetupAttachment(GetCapsuleComponent());
+
+    // set position
+    FPSCameraComponent->SetRelativeLocation(FVector(0.f, 0.f, BaseEyeHeight + 50.f));
+    // rotate with controller
+    FPSCameraComponent->bUsePawnControlRotation = true;
 }
 
 // Called when the game starts or when spawned
