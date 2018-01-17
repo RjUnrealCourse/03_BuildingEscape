@@ -29,4 +29,7 @@ public:
     // FPS Camera
     UPROPERTY(VisibleAnywhere)
     UCameraComponent* FPSCameraComponent;
+
+    UPROPERTY(VisibleDefaultsOnly, Category = "Mesh")
+    USkeletalMeshComponent* FPSMesh;
 };
